@@ -34,7 +34,7 @@ const Dashboard: React.FC = () => {
 
   return (
     <div className="container mt-4">
-      <h1 className="mb-4">Task Dashboard</h1>
+      <h1 className="mb-4 text-center">Task Dashboard</h1>
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <StatusDropdown statusFilter={statusFilter} setStatusFilter={setStatusFilter} />
       
